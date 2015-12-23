@@ -1,4 +1,4 @@
-# The scripts - how they work & connect
+# About the scripts
 Assignment for course: Getting and Cleaning Data
 ## How they work
 This is some text
