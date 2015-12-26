@@ -7,15 +7,16 @@ This script:
    5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## How it works
-Each group of data sets is contained in 3 tables (subject_\*,X_\* and y_\* where \*=training or test)
+Each group of data sets is contained in 3 tables (subject_\*,X_\* and y_\* where \*=training or test); variable names are contained in features.txt and activity names are contained in activity_labels.txt.
 ##### STEP 1
+- load and clean column names from features.txt (to enable select function in step 2; it also completes most of step 4)
 - Column bind the 3 tables for training and test seperately
 - Row bind the training and test tables to create one data set
 - Names for columns of X_\* tables come from features.txt, so load that first.
 - OUTPUT: data1
 
 ##### STEP 2
-- create vector of column names to include; by strict name match with '_mean_' and '_std_'.  (This is based on a strict search for '-mean()' and '-std()', a looser search (say on 'mean' and 'std') would produce more variables).
+- create vector of column names to include; by strict name match with '\_mean\_' and '\_std\_'.  (This is based on a strict search for '-mean()' and '-std()', a looser search (say on 'mean' and 'std') would produce more variables).
 - create extract using select_ function (which allows for selection based on vector of column names)
 - OUTPUT: data2
 
