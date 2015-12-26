@@ -12,16 +12,17 @@
 - The square brackets, e.g. [t|f], means the first letter of the variable is a 't' or an 'f'.  (The pipe '|' stands for logical 'or').
 - The angled brackets, e.g. <Jerk>, means this part of the name is optional (i.e. it might not be included in the name).
 - The values of these variables are based on measurements normalised and bounded within [-1,1].  
-- In the prefix, 't' denotes time and 'f' denotes frequency.
+- t - denotes time 
+- f - denotes frequency.
+- Body - signal associated with the body
+- Gravity - signal associated with gravity
 - Acc - Accelerometer source
 - Gyro - Gyroscope source
 - Jerk - the time rate of change of acceleration
 - Mag - Magnitude of signal
 - mean - denotes the mean
 - std - denotes the standard deviation.
-- Variable suffixes 'X', 'Y' and 'Z' denote the 3 possible axial signals in the X, Y and Z directions.
-
-
+- X, Y and Z - denote the 3 possible axial signals in the X, Y and Z directions.
 
 #### Data
 - features.txt - variable names for X_train and X_test.
