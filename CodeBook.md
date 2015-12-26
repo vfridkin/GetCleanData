@@ -14,7 +14,7 @@
 - The angled brackets, e.g. \<Jerk\>, means this part of the name is optional (i.e. it might not be included in the name).
 - t - denotes time 
 - f - denotes frequency.
-- Body - signal associated with the body
+- Body - signal associated with the subject's body
 - Gravity - signal associated with gravity
 - Acc - Accelerometer source
 - Gyro - Gyroscope source
