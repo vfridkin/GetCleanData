@@ -4,9 +4,9 @@
 
 #### Variables
 ###### activityName 
-    name of activity performed wearing a smartphone (Samsung Galaxy S II) on the waist (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
+name of activity performed wearing a smartphone (Samsung Galaxy S II) on the waist (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
 ###### subject 
-    represents the person who performend the activity
+represents the person who performend the activity
 ###### subject 
     represents the person who performend the activity
 
