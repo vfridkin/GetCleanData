@@ -7,7 +7,7 @@ This script:
    5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## How it works
-Each group of data sets is contained in 3 tables (subject_\*,X_\* and y_\* where \*=training or test); variable names are contained in features.txt and activity names are contained in activity_labels.txt.  The output of each step is used in the proceeding step. The tidy data set at the end of step 5 is called data5 and is in wide format.  (See reference below for conditions of a tidy data).
+Each group of data sets is contained in 3 tables (subject_\*,X_\* and y_\* where \*=training or test); variable names are contained in features.txt and activity names are contained in activity_labels.txt.  The output of each step is used in the proceeding step. The tidy data set at the end of step 5 is called data5 and is in wide format.  (See references below for conditions of a tidy data).
 ##### STEP 1
 - load and clean column names from features.txt (to enable select function in step 2; it also completes most of step 4).
 - Column bind the 3 tables for training and test seperately.
@@ -33,8 +33,10 @@ Each group of data sets is contained in 3 tables (subject_\*,X_\* and y_\* where
 
 ##### STEP 5
 - Use dplyr pipe commands to group by activity and subject variables and then summarise by mean.
-- The data set is tidy as per reference below.
+- The data set is tidy as per references below.
 - OUTPUT: data5
 
 ## References
-Tidy data set: https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/
+Tidy data set: 
+- https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html
+- https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/
