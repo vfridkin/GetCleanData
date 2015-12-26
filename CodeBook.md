@@ -11,7 +11,7 @@
 ###### [t|f][Body|Gravity][Acc|Gyro]\<Jerk\>\<Mag\>\_[mean|std]\<\_\>\<X|Y|X\> 
 - Unit Of Measure: The values of these variables are based on measurements normalised and bounded within [-1,1].  
 - The square brackets, e.g. [t|f], means the first letter of the variable is a 't' or an 'f'.  (The pipe '|' stands for logical 'or').
-- The angled brackets, e.g. <Jerk>, means this part of the name is optional (i.e. it might not be included in the name).
+- The angled brackets, e.g. \<Jerk\>, means this part of the name is optional (i.e. it might not be included in the name).
 - t - denotes time 
 - f - denotes frequency.
 - Body - signal associated with the body
