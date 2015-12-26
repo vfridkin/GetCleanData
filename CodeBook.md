@@ -4,9 +4,9 @@
 
 #### Factor variables
 ###### activityName 
-    name of activity performed wearing a smartphone (Samsung Galaxy S II) on the waist (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
+    name of one of six activities performed wearing a smartphone (Samsung Galaxy S II) on the waist (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
 ###### subject 
-    identifies of the person who performend the activity
+    number between 1 and 30 identifying the person who performend the activity
 #### Observation variables
 ###### [t|f][Body|Gravity][Acc|Gyro]\<Jerk\>\<Mag\>\_[mean|std]\<\_\>\<X|Y|X\> 
 - Unit Of Measure: The values of these variables are based on measurements normalised and bounded within [-1,1].  
